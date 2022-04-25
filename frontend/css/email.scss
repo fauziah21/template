@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
 //page verify.html
 nav {
     a {
@@ -33,6 +39,25 @@ nav {
         &:hover {
             background-color: #433da8;
             color: #fff;
+        }
+    }
+}
+
+//page forgot password
+nav{
+    a{
+        .logo{
+            margin-top: 5px;
+            margin-right: 5px;
+        }
+    }
+}
+
+main{
+    .section-verify{
+        .forgot{
+            width: 400px;
+            height: 400px;
         }
     }
 }

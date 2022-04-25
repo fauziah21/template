@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
 nav a img {
   width: 100px;
 }
@@ -26,5 +32,15 @@ nav a img {
 .section-verify .btn-home:hover {
   background-color: #433da8;
   color: #fff;
+}
+
+nav a .logo {
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+main .section-verify .forgot {
+  width: 400px;
+  height: 400px;
 }
 /*# sourceMappingURL=email.css.map */
